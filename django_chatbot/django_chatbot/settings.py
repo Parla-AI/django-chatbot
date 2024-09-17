@@ -43,7 +43,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -126,5 +125,5 @@ STATIC_URL = 'templates/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'templates')]
-STATIC_ROOT =os.path.join(BASE_DIR, 'staticfiles')
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles')]
+# STATIC_ROOT =os.path.join(BASE_DIR, 'templates')
