@@ -4,7 +4,7 @@
         "builder": "NIXPACKS"
     },
     "deploy": {
-        "startCommand": "cd django_chatbot && python3 manage.py migrate && python3 manage.py collectstatic --noinput && uvicorn django_chatbot.wsgi",
+        "startCommand": "python3 manage.py migrate && python3 manage.py collectstatic --noinput && uvicorn django_chatbot.wsgi",
         "restartPolicyType": "ON_FAILURE",
         "restartPolicyMaxRetries": 10
     }
