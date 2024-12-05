@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-wsa9k4v_goql%t8rn@q4*5flo+xnnxa%8!^p2g(4g-=py==ur)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 # CSRF_COOKIE_SECURE = True
 ALLOWED_HOSTS = ["*"]
 # CSRF_TRUSTED_ORIGINS = ["http://*"]
@@ -128,4 +128,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'staticfiles')]
-STATIC_ROOT =os.path.join(BASE_DIR, 'templates')
+STATIC_ROOT =os.pain(BASE_DIR, 'templates')th.jo
